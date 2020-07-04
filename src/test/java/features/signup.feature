@@ -1,4 +1,5 @@
 Feature: Application sign up
+  @Regression
   Scenario: Check user sign up
     Given User is in sign up page
     When User sign up with following details

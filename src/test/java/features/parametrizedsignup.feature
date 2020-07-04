@@ -1,4 +1,5 @@
 Feature: Parametrized application sign up
+  @Regression
   Scenario Outline: Check user sign up
     Given User is in sign up page
     When User sign up with <username> and <password>

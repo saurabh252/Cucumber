@@ -3,6 +3,6 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/java/features",glue = "stepdefination")
+@CucumberOptions(features = "src/test/java/features",glue = "stepdefination",tags = "@Regression")
 public class TestRunner {
 }
